@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="578.0" prefWidth="962.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.Controller.DashbordController">
+    <children>
+        <ImageView fitHeight="653.0" fitWidth="1072.0" layoutX="-62.0" layoutY="-15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="/Images/bg.jpeg" />
+         </image></ImageView>
+      <Pane layoutX="299.0" layoutY="112.0" opacity="0.88" prefHeight="418.0" prefWidth="350.0" style="-fx-background-color: RGB(255,255,255); -fx-border-radius: 25px; -fx-border-color: RGB(0,0,0); -fx-background-radius: 25px;">
+         <children>
+            <AnchorPane layoutX="45.0" layoutY="74.0">
+               <children>
+                    <Button mnemonicParsing="false" onAction="#btnOnACtionCustomerManagment" prefHeight="42.0" prefWidth="260.0" style="-fx-border-radius: 24;" text="Customer Managment">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+                    <Button layoutY="78.0" mnemonicParsing="false" onAction="#btnOnActionItemManagment" prefHeight="42.0" prefWidth="260.0" style="-fx-border-radius: 24;" text="Item Managment">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+                    <Button layoutY="155.0" mnemonicParsing="false" onAction="#btnOnAvtinSupplierManagment" prefHeight="42.0" prefWidth="260.0" style="-fx-border-radius: 24;" text="Supplier managment">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+                    <Button layoutY="227.0" mnemonicParsing="false" onAction="#btnOnActionEmployeemanagment" prefHeight="42.0" prefWidth="260.0" style="-fx-border-radius: 24;" text="Employee Managment">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </children>
+      </Pane>
+      <Pane layoutX="349.0" layoutY="14.0" opacity="0.88" prefHeight="82.0" prefWidth="250.0" style="-fx-background-color: RGB(255,255,255);">
+         <children>
+              <Label layoutX="16.0" layoutY="13.0" text="Thoga Kade">
+                  <font>
+                      <Font name="System Bold" size="39.0" />
+                  </font>
+              </Label>
+         </children>
+      </Pane>
+    </children>
+</AnchorPane>
