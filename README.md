@@ -34,7 +34,7 @@ src/main/
 Installation & SetupClone
   <ol>
     <li>the Repository:<br>
-        git clone https://github.com/your-username/your-repo-name.git</li>
+        git clone https://github.com/PraveenWijewardana/Thoga_Kade</li>
     <li>Open in IntelliJ IDEA:<br>
         File > Open > Select the project folder.</li>
     <li>Import Maven Dependencies:<br>
