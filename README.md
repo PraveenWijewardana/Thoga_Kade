@@ -3,7 +3,7 @@
 
 
 
-<h2>📦 Inventory & Business Management System</h2>
+<h2>📦 Supermarket Management System</h2>
 A comprehensive desktop application designed to streamline business operations by managing Customers, Items, Suppliers, and Employees. Built with Java 23 and JavaFX, this project follows the MVC (Model-View-Controller) design pattern to ensure clean, maintainable, and scalable code.
 <h2>🚀 Features</h2>
 Full CRUD Operations: Efficiently Create, Read, Update, and Delete records for:👥 Customer Management: Track client details and history.📦 Item Inventory: Manage stock levels, pricing, and categories.🚚 Supplier Tracking: Maintain records of wholesale partners.👔 Employee Directory: Manage staff information and roles.Modern UI: A user-friendly interface built with FXML and CSS for a smooth user experience.Data Validation: Integrated checks to ensure data integrity during input.🛠️ Tech StackLanguage: Java 23GUI Framework: JavaFX (with FXML)Build Tool: MavenArchitecture: MVC (Model-View-Controller)IDE: IntelliJ IDEA
